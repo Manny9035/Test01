@@ -1,4 +1,6 @@
-/* Global Styles */
+
+
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -6,7 +8,7 @@ body {
   color: #333;
 }
 
-/* Headings */
+
 h2 {
   text-align: center;
   margin-top: 20px;
@@ -19,7 +21,7 @@ a {
   color: inherit;
 }
 
-/* Grid Layout */
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -27,7 +29,7 @@ a {
   margin: 20px;
 }
 
-/* Product Card */
+
 .product-card {
   background: #fff;
   border-radius: 10px;
@@ -53,7 +55,7 @@ a {
 .product-card h4 {
   font-size: 16px;
   margin: 10px 0;
-  min-height: 40px;
+  min-height: 40px; 
 }
 
 .product-card p {
@@ -62,7 +64,7 @@ a {
   margin-top: 5px;
 }
 
-/* Product Detail Page */
+
 .product-detail {
   max-width: 800px;
   margin: 40px auto;
@@ -94,7 +96,7 @@ a {
   color: #555;
 }
 
-/* Back Link */
+
 .product-detail a {
   display: inline-block;
   margin-bottom: 15px;
