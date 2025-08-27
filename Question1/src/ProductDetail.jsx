@@ -19,7 +19,7 @@ function ProductDetail() {
       <Link to="/">⬅ Back to Products</Link>
       <h2>{product.title}</h2>
       <img src={product.image} alt={product.title} width="200" />
-      <p><strong>Price:</strong> ${product.price}</p>
+      <p><strong>Price:</strong> ${product.price.toFixed(2)}</p>
       <p style={{ marginTop: "10px" }}>{product.description}</p>
       <p><em>Category: {product.category}</em></p>
     </div>
